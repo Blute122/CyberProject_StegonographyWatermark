@@ -1,35 +1,35 @@
 # Hybrid Steganography & Watermarking System (Enterprise Edition)
 
 ## 📌 Project Overview
-This project implements a sophisticated **Dual-Layer Cybersecurity System** designed to protect digital media through a hybrid approach. [cite_start]It combines **Adaptive DCT Steganography** for covert communication with **DWT-based Digital Watermarking** for copyright protection and tamper detection[cite: 31, 37, 54].
+This project implements a sophisticated **Dual-Layer Cybersecurity System** designed to protect digital media through a hybrid approach.It combines **Adaptive DCT Steganography** for covert communication with **DWT-based Digital Watermarking** for copyright protection and tamper detection.
 
-[cite_start]Unlike traditional systems that use fragile LSB hiding, this architecture employs **AI-driven Texture Analysis** to hide data only in high-entropy (busy) regions, making the secret message statistically invisible to forensic tools[cite: 80, 124]. [cite_start]Furthermore, it integrates **RSA-2048 Asymmetric Encryption** to solve the key distribution problem, ensuring secure message exchange[cite: 81, 120].
+Unlike traditional systems that use fragile LSB hiding, this architecture employs **AI-driven Texture Analysis** to hide data only in high-entropy (busy) regions, making the secret message statistically invisible to forensic tools. Furthermore, it integrates **RSA-2048 Asymmetric Encryption** to solve the key distribution problem, ensuring secure message exchange.
 
 ## 🚀 Key Features
 
 ### 1. 🧠 AI-Driven Adaptive Steganography
-* [cite_start]**Intelligent Embedding:** Uses **Canny Edge Detection** and Gaussian Blur to generate a "Complexity Map" of the image[cite: 80, 165].
+* **Intelligent Embedding:** Uses **Canny Edge Detection** and Gaussian Blur to generate a "Complexity Map" of the image.
 * **Adaptive Logic:** Hides data *only* in complex image regions (edges/textures) where human vision is less sensitive, ignoring smooth areas like skies or walls.
-* [cite_start]**Technology:** Discrete Cosine Transform (DCT) with Quantization (`Q=25`)[cite: 51, 194].
+* **Technology:** Discrete Cosine Transform (DCT) with Quantization (`Q=25`).
 
 ### 2. 🛡️ Dual-Layer Watermarking
-[cite_start]The system implements the "Hybrid Approach" suggested in modern research[cite: 37, 54]:
-* **Robust Layer (Ownership):** Embeds a visible-invisible watermark into the **High-High (HH)** frequency band using **Discrete Wavelet Transform (DWT)**. [cite_start]This survives attacks like compression and cropping[cite: 52, 168].
-* **Fragile Layer (Integrity):** Embeds a SHA-256 hash of the image into the LSB of the last pixel row. [cite_start]This "Digital Seal" shatters if a single bit is altered[cite: 16, 82].
+The system implements the "Hybrid Approach" suggested in modern research:
+* **Robust Layer (Ownership):** Embeds a visible-invisible watermark into the **High-High (HH)** frequency band using **Discrete Wavelet Transform (DWT)**.This survives attacks like compression and cropping.
+* **Fragile Layer (Integrity):** Embeds a SHA-256 hash of the image into the LSB of the last pixel row.This "Digital Seal" shatters if a single bit is altered.
 
 ### 3. 🔐 Enterprise-Grade Cryptography
-* **RSA-2048:** Uses asymmetric encryption to exchange session keys. [cite_start]You only need the recipient's **Public Key** to send a message[cite: 120].
-* [cite_start]**AES-256:** Encrypts the actual payload using a randomized session key for military-grade security[cite: 81, 93].
+* **RSA-2048:** Uses asymmetric encryption to exchange session keys.You only need the recipient's **Public Key** to send a message.
+* **AES-256:** Encrypts the actual payload using a randomized session key for military-grade security.
 
 ### 4. ⚔️ Threat Simulation & Forensics
-* [cite_start]**Attack Simulator:** Built-in module to subject images to JPEG Compression, Noise Injection, and Cropping to prove watermark robustness[cite: 167, 196].
-* [cite_start]**Steganalysis Tool:** Includes a Chi-Square statistical scanner to verify that the steganography is undetectable (0.00% detection probability)[cite: 164, 199].
+* **Attack Simulator:** Built-in module to subject images to JPEG Compression, Noise Injection, and Cropping to prove watermark robustness.
+* **Steganalysis Tool:** Includes a Chi-Square statistical scanner to verify that the steganography is undetectable (0.00% detection probability).
 
 ---
 
 ## 🏗️ System Architecture
 
-[cite_start]The pipeline follows the **Multi-Layer Security Architecture**[cite: 115]:
+The pipeline follows the **Multi-Layer Security Architecture**:
 
 1.  **Preprocessing:** Image is analyzed for texture density.
 2.  **Watermarking:** Inverted Logo is embedded via DWT-HH band.
@@ -40,11 +40,11 @@ This project implements a sophisticated **Dual-Layer Cybersecurity System** desi
 ---
 
 ## 🛠️ Technology Stack
-* [cite_start]**Language:** Python 3.x [cite: 117]
+* **Language:** Python 3.x 
 * **GUI:** Tkinter (Custom Dashboard)
-* [cite_start]**Computer Vision:** OpenCV (`cv2`), NumPy [cite: 118, 121]
+* **Computer Vision:** OpenCV (`cv2`), NumPy 
 * **Signal Processing:** PyWavelets (`pywt`), SciPy
-* [cite_start]**Cryptography:** PyCryptodome (RSA, AES, SHA-256) [cite: 120]
+* **Cryptography:** PyCryptodome (RSA, AES, SHA-256) 
 
 ---
 
