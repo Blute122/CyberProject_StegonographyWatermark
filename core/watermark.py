@@ -149,3 +149,10 @@ class WatermarkHandler:
             return True, "✅ INTEGRITY CONFIRMED: Image is authentic."
         else:
             return False, "❌ TAMPER DETECTED: Image has been modified!"
+    
+    def embed_watermark_to_frame(self, frame_img, output_path):
+        """Helper to embed watermark directly into a video frame object."""
+        # Save frame temporarily so existing logic can read it
+        cv2.imwrite(output_path, frame_img)
+        # Reuse existing logic
+        return self.embed_watermark(output_path, output_path)
