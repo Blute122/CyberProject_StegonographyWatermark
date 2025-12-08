@@ -53,7 +53,7 @@ The pipeline follows the **Multi-Layer Security Architecture**:
 1.  **Clone the Repository:**
     ```bash
     git clone https://github.com/Blute122/CyberProject_StegonographyWatermark.git
-    cd cyber-stego-project
+    cd CyberProject_StegonographyWatermark
     ```
 
 2.  **Install Dependencies:**
