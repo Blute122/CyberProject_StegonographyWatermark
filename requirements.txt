@@ -4,3 +4,5 @@ Pillow
 pycryptodome
 matplotlib
 PyWavelets
+requests
+pandas
