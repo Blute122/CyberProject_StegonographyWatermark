@@ -6,7 +6,7 @@ class DCTSteganography:
         self.block_size = 8
         self.delimiter = "$$$"
         self.Q = 25  # Standard Quality for Images
-        self.threshold = 10 
+        self.threshold = 80 
 
     def to_binary(self, data):
         if isinstance(data, str):
