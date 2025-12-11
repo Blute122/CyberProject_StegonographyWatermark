@@ -1,0 +1,51 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Image Download Status</title>
+<link rel="stylesheet" type="text/css" href="sipi_info.css" >
+</head>
+
+<body>
+
+<div class="topbanner">
+<table width="800" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+      <td>
+	  <img src="images/sipi_masthead_800.png" width="800" height="165" border="0"
+            usemap="#sipi_masthead_800">
+	  <map name="sipi_masthead_800">
+            <area coords="10,70,220,140" alt="The USC Andrew and Erna Viterbi School of Engineering"
+              title="The USC Andrew and Erna Viterbi School of Engineering"
+              href="http://viterbi.usc.edu" target="_blank" />
+            <area coords="340,90,780,110" alt="USC Signal and Image Processing Institute"
+              title="USC Signal and Image Processing Institute"
+              href="http://sipi.usc.edu" target="_blank" />
+            <area coords="360,120,770,135" alt="USC Ming Hsieh Department of Electrical and Computer Engineering"
+              title="USC Ming Hsieh Department of Electrical and Computer Engineering"
+              href="http://ee.usc.edu" target="_blank" />
+            <area coords="550,5,790,65" alt="University of Southern California"
+              title="University of Southern California" href="http://www.usc.edu" target="_blank" />
+	  </map>
+      </td>
+  </tr>
+</table>
+</div>
+
+
+<div class="pageinfo">
+
+<center><h2>Image Download Status</h2></center>
+
+<h4>Image download error: File not found - "misc/4.2.04.tiff"</h4>
+
+<center><h4><a href=database.php>Return to database page</a></h4></center>
+
+</div>
+
+</body>
+
+</html>
